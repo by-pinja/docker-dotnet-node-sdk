@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:1.1-runtime
+FROM microsoft/dotnet:1.1-sdk
 
 RUN apt-get update \
     && curl -sL https://deb.nodesource.com/setup_8.x | bash \
